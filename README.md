@@ -4,7 +4,7 @@ An intelligent, Gen AI-powered Gemini Based web application that generates hospi
 
 ## 🚀 Features
 
-* **AI-powered Data Extraction**: Automatically extracts patient data from Aadhaar and discharge summary images using Google Cloud Vision and NLP APIs.
+* **AI-powered Data Extraction**: Automatically extracts patient data from Aadhaar and discharge summary images using Google Cloud, Google Gemini services and NLP.
 * **Instant Visiting Cards**: Generates clean, ready-to-print hospital visiting cards.
 * **Interactive Chatbot Interface**: Simplified communication with patients to capture information smoothly.
 * **Save Time**: Saves almost 30 min of effort.
