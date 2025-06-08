@@ -1,7 +1,5 @@
 # SmartVisitAI
 
-# SmartVisitAI
-
 An intelligent, Gen AI-powered Gemini Based web application that generates hospital visiting cards effortlessly, minimizing patient hassle by eliminating manual form filling.
 
 ## 🚀 Features
@@ -15,7 +13,7 @@ An intelligent, Gen AI-powered Gemini Based web application that generates hospi
 
 * **Frontend**: HTML, CSS, JavaScript
 * **Backend**: Python (Flask)
-* **AI Services**: Google Cloud Vision & NLP APIs
+* **AI Services**: Google Gemini and Cloud Services & NLP 
 * **Containerization**: Docker
 
 ## 📂 Project Structure
