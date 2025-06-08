@@ -40,7 +40,7 @@ SMARTVISITAI
 ### Prerequisites
 
 * Python 3.8 or higher
-* Google Cloud account and Vision & NLP APIs enabled
+* Google Cloud account and Gemini API enabled
 * Docker (optional)
 
 ### Installation
