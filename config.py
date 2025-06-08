@@ -12,10 +12,10 @@ def get_secret(secret_name: str) -> str:
     """
     # ── Instead of reading from an env var each time, you can
     #    directly hard-code your project ID here:
-    project_id = "smartvisitpoc"  # ← change this to your actual GCP Project ID
+    project_id = "Add your project id"  # ← change this to your actual GCP Project ID
     
     # If you ever want to fall back to an environment variable, you could also do:
-    # project_id = os.getenv("GOOGLE_CLOUD_PROJECT", "smartvisit-chat-2025")
+    # project_id = os.getenv("GOOGLE_CLOUD_PROJECT")
     #
     # That way, if you DO set the env var, it uses that, otherwise it defaults below.
 
