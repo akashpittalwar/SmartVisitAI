@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartVisitAI</title>
+
+  <!-- Roboto & Material Icons -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- LANDING HEADER -->
+  <!-- LANDING HEADER -->
+  <header class="landing-header">
+    <div class="container">
+      <h1 class="google-title">
+        <span>S</span><span>m</span><span>a</span><span>r</span><span>t</span>
+        <span>V</span><span>i</span><span>s</span><span>i</span><span>t</span>
+        <span>A</span><span>I</span>
+      </h1>
+      <p class="tagline">
+        Eliminate manual form-filling and save patients hours of hassle.
+      </p>
+
+      <div class="partner-logos">
+        <span>In partnership with</span>
+        <img
+          src="https://www.pngmart.com/files/23/Google-Cloud-Logo-PNG-Pic.png"
+          alt="Google Cloud Logo"
+        />
+        <span>| Powered by</span>
+        <img
+          src="https://hack2skill.com/new/H2S-Gradient.png"
+          alt="Hack2Skills Logo"
+        />
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h2>From Aadhaar photo to ready-to-print visiting card in seconds</h2>
+        <ul class="benefits">
+          <li>No more tedious manual entries</li>
+          <li>Auto-extracts patient info from Aadhar Card and Discharge Summary via Google Gemini AI &amp; NLP</li>
+          <li>Instant, clean PDF-style visiting cards</li>
+        </ul>
+        <button id="open-chat" class="cta-button">Chat with the Bot →</button>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://media.istockphoto.com/id/1298407423/photo/happy-receptionist-working-at-a-hospital-wearing-a-facemask.jpg?s=612x612&w=0&k=20&c=J6TJfmwMkTxjc5M3bfIhGssH9UY8SQ73E44zukU0mvA="
+          alt="Hospital staff assisting a patient"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOATING CHAT TOGGLE -->
+  <button id="chat-toggle" class="hidden" aria-label="Open chat">
+    <span class="material-icons">smart_toy</span>
+  </button>
+
+  <!-- CHAT WIDGET -->
+  <div id="chat-widget" class="hidden">
+    <header class="app-header">
+      <span class="material-icons bot-icon">smart_toy</span>
+      SmartVisitAI Chat
+    </header>
+
+    <div class="chat-container">
+      <div id="messages"></div>
+
+      <div id="loader" class="loader hidden">
+        <div class="spinner"></div>
+        <div class="loader-text">Gemini is thinking…</div>
+      </div>
+
+      <div id="input-area">
+        <div class="input-with-icon">
+          <input
+            type="text"
+            id="text-input"
+            placeholder="Type a message…"
+            autocomplete="off"
+          />
+          <button id="send-button" class="icon-button" aria-label="Send">
+            <svg viewBox="0 0 24 24">
+              <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+            </svg>
+          </button>
+        </div>
+        <label for="file-input" class="file-label">
+          <svg class="icon-upload" viewBox="0 0 24 24">
+            <path d="M5 20h14v-2H5v2zm7-18L5.33 9h3.84v4h4.66V9h3.84L12 2z" />
+          </svg>
+          <span>Upload</span>
+        </label>
+        <input type="file" id="file-input" accept="image/*" hidden />
+      </div>
+    </div>
+
+    <footer class="app-footer">
+      Note: This bot is for Hack2Skill Hospital only
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

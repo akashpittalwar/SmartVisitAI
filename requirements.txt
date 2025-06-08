@@ -1,0 +1,5 @@
+Flask==2.3.5
+gunicorn==21.2.0
+python-dotenv==1.0.1
+google-genai==0.5.0
+google-cloud-secret-manager==2.15.0
